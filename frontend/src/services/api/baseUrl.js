@@ -1,1 +1,1 @@
-export const baseUrl = "http://localhost:4000/api/v1"
+export const baseUrl = "https://codewithease-api.onrender.com/api/v1";
