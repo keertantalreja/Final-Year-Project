@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-
-import AchievementsTable from "./table";
+import AchievementsTable from "./Table";
 import { colors } from "../../constant/color";
 
 const AchievementsListing = () => {
