@@ -1,0 +1,19 @@
+import React, { useEffect } from 'react'
+import Main from '../../components/admin/Hackathons/Main'
+import { useNavigate } from 'react-router-dom'
+
+const HackathonsPage = () => {
+
+  const nav = useNavigate()
+  useEffect(()=>{
+    !localStorage.getItem('admintoken') && nav('/admin')
+  },[])
+
+  return (
+    <div>
+      <Main/>
+    </div>
+  )
+}
+
+export default HackathonsPage
