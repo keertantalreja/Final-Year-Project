@@ -1,12 +1,12 @@
-import React from 'react'
-import ForgetAccount from '../../components/dynamic/Account/ForgetAccount'
+import React from "react";
+import ForgetAccount from "../../components/dynamic/account/ForgetAccount";
 
 const ForgetPage = () => {
   return (
     <div>
-        <ForgetAccount role="admin"/>
+      <ForgetAccount role="admin" />
     </div>
-  )
-}
+  );
+};
 
-export default ForgetPage
+export default ForgetPage;
