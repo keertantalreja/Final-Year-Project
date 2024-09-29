@@ -26,7 +26,7 @@ import ProfilePage from "../pages/student/Profile/ProfilePage";
 
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
-import UploadResult from "../components/judge/Home/uploadResult";
+import UploadResult from "../components/judge/Home/UploadResult";
 import AchievementsPage from "../pages/student/achievements/AchievementsPage";
 import ProfileJudgePage from "../pages/judge/Profile/ProfilePage";
 
