@@ -1,5 +1,5 @@
 import React from 'react'
-import ForgetAccount from '../../components/dynamic/Account/ForgetAccount'
+import ForgetAccount from '../../../components/dynamic/Account/ForgetAccount'
 
 const ForgetPage = () => {
   return (
